@@ -1,0 +1,58 @@
+body {
+	color: #f3f9ef;
+}
+
+/*background-color {
+	color: #35bfb6;
+}*/
+
+body {
+    margin: auto 100px;
+    margin-top: 2cm;
+    width: auto;
+    height: 2000px;
+    background-color: #4ABDAC;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 22px;
+}
+
+
+.background-image {
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.floater {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.bio {
+    width: 700px;
+    padding: 10px;
+    border: 1px;
+    margin: 0; 
+}
+
+h3 {
+	color:; #fc4a1a;
+}
+
+a:visited {
+    color: #f78733;
+}
+
+a:link {
+ 	color: #fc4a1a;
+}
+
+a:hover {
+    color: #fc4a1a;
+}
+
+a:hover {
+    color: hotpink;
+}
