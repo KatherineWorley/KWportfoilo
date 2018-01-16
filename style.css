@@ -5,6 +5,17 @@ html, body {
     font-family: 'Raleway', sans-serif;
 }
 
+div::background {
+    background: url("images/wild-plants.jpg");
+    z-index: -5
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
