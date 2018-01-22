@@ -3,13 +3,13 @@
 
 html, body {
     font-family: 'Raleway', sans-serif;
-    background-image: url("images/space.png");
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 div::background {
-    background: url("images/wild-plants.jpg");
     z-index: -5
     opacity: 0.5;
     top: 0;
@@ -80,18 +80,19 @@ a {
     }
 }
 
-
-
 .footer {
-    height: 20px;
+    height: 700px;
     width: 100%;
     background: #9C9F85;
     position: absolute;
+    z-index: -5
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 0;
     border-top: 1px solid #d6dce0;
+    background-image: url("images/space.png");
+
 }
 
 .button {
@@ -140,8 +141,6 @@ a {
             }
         }
     }
-
-
 
     .post_wrapper {
         padding: 3em;
