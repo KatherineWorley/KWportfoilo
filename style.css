@@ -85,7 +85,7 @@ a {
     opacity: 0.5;
     width: 100%;
     background: #9C9F85;
-    position: absolute;
+    position: fixed;
     z-index: -5
     right: 0;
     bottom: 0;
