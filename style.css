@@ -3,6 +3,9 @@
 
 html, body {
     font-family: 'Raleway', sans-serif;
+    background-image: url("images/space.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div::background {
@@ -77,8 +80,10 @@ a {
     }
 }
 
+
+
 .footer {
-    height: 100px;
+    height: 20px;
     width: 100%;
     background: #9C9F85;
     position: absolute;
