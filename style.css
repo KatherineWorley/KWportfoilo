@@ -81,7 +81,8 @@ a {
 }
 
 .footer {
-    height: 700px;
+    height: 600px;
+    opacity: 0.5;
     width: 100%;
     background: #9C9F85;
     position: absolute;
